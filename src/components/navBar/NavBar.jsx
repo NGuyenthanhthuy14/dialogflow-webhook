@@ -3,7 +3,7 @@ import Menu from '@mui/icons-material/Menu'
 import { Lock } from '@mui/icons-material'
 import { useValue } from '~/context/ContextProvider'
 import UserIcons from './login/UserIcons'
-import Sidebar from '../sideBar/Sidebar'
+import Sidebar from '../sidebar/Sidebar'
 import { useState } from 'react'
 
 const NavBar = () => {
