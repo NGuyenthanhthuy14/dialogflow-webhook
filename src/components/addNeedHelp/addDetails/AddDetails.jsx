@@ -1,7 +1,7 @@
 import { FormControl, FormControlLabel, InputAdornment, Radio, RadioGroup, Stack, TextField } from '@mui/material'
 import { useState } from 'react'
 import { useValue } from '~/context/ContextProvider'
-import InfoField from './infoField'
+import InfoField from './InfoField'
 
 const AddDetails = () => {
   const { details, dispatch } =useValue()
