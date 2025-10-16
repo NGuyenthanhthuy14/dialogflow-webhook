@@ -83,7 +83,7 @@ const ClusterMap = () => {
     >
       <ReactMapGL
         ref={mapRef}
-        initialViewState={{ latitude: 51.5072, longitude: 0.1276 }}
+        initialViewState={{ latitude: 16.0471, longitude: 108.2062, zoom: 5 }}
         mapStyle="mapbox://styles/mapbox/streets-v11"
         mapboxAccessToken={import.meta.env.VITE_MAPBOX_TOKEN}
         style={{ width: '100%', height: '100%' }}
